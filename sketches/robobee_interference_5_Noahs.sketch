@@ -1,0 +1,92 @@
+!!python/object:popupcad.filetypes.sketch.Sketch
+_basename: robobee_interference_5_Noahs.sketch
+constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+  constraints:
+  - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+    id: 4742635856
+    segment_ids:
+    - !!python/tuple [4742636496, 5160567568]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+    id: 4742630736
+    segment_ids:
+    - !!python/tuple [4742637840, 4742638160]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 4742666832
+    segment_ids: []
+    value: 0.675
+    vertex_ids: [4742636496, 5160567568]
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 4742716496
+    segment_ids: []
+    value: 0.875
+    vertex_ids: [4742637840, 4742638160]
+  - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+    id: 4742768400
+    segment_ids:
+    - !!python/tuple [4742638160, 4742639248]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 4742814800
+    segment_ids: []
+    value: 3.0085
+    vertex_ids: [4742636496, 4742638160]
+  - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+    id: 5101023888
+    segment_ids:
+    - !!python/tuple [4742638288, 4742639248]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 5256120400
+    segment_ids: []
+    value: 0.8839
+    vertex_ids: [4742638288, 4742639248]
+  - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+    id: 5256120144
+    segment_ids:
+    - !!python/tuple [4742636496, 4742639120]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 5213638864
+    segment_ids: []
+    value: 0.4661
+    vertex_ids: [4742637904, 4742638288]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 5213641488
+    segment_ids: []
+    value: 0.2371
+    vertex_ids: [4742637904, 4742638288]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 5214077520
+    segment_ids: []
+    value: 1.2172
+    vertex_ids: [4742636496, 4742639120]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 5214235408
+    segment_ids: []
+    value: 0.5002
+    vertex_ids: [4742637840, 5160567568]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 5254417616
+    segment_ids: []
+    value: 1.4068
+    vertex_ids: [4742638160, 4742639248]
+dirname: /Users/nickgravish/popupCAD_files/sketches
+id: 5080763216
+operationgeometry:
+- !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+  construction: false
+  exterior:
+  - !ShapeVertex_1 [4742636496, -3.1465136412236996, 1.2644404200382156]
+  - !ShapeVertex_1 [5160567568, -2.4715136412236998, 1.2644404200382156]
+  - !ShapeVertex_1 [4742637840, -1.0130136412236996, 0.7642404200382156]
+  - !ShapeVertex_1 [4742638160, -0.13801364122369972, 0.7642404200382156]
+  - !ShapeVertex_1 [4742639248, -0.13801364122369972, -0.6425595799617845]
+  - !ShapeVertex_1 [4742638288, -1.0219136412236998, -0.6425595799617845]
+  - !ShapeVertex_1 [4742637904, -1.4880136412236997, -0.40545957996178444]
+  - !ShapeVertex_1 [4742639120, -3.1465136412236996, 0.04724042003821547]
+  id: 4742637520
+  interiors: []
+parent_program_name: popupCAD
+parent_program_version: 2016.02.25

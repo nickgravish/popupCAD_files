@@ -1,0 +1,26 @@
+!!python/object:popupcad.filetypes.sketch.Sketch
+_basename: 4701755024.sketch
+constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+  constraints:
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 4799060240
+    segment_ids: []
+    value: 25.0
+    vertex_ids: [4703782096, 4704031888]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 4800396176
+    segment_ids: []
+    value: 25.0
+    vertex_ids: [4703782096, 4704031888]
+dirname: /Users/nickgravish/popupCAD_files/sketches
+id: 4701755024
+operationgeometry:
+- !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+  construction: false
+  exterior:
+  - !ShapeVertex_1 [4703782096, -16.086556169429098, 17.320441988950275]
+  - !ShapeVertex_1 [4704031888, 8.913443830570902, -7.679558011049724]
+  id: 4799006800
+  interiors: []
+parent_program_name: popupCAD
+parent_program_version: 2016.02.29

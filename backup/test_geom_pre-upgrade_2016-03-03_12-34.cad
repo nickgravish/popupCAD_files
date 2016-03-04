@@ -1,0 +1,98 @@
+!!python/object:popupcad.filetypes.design.Design
+_basename: test_geom.cad
+_layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
+  layers:
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id002 !!python/tuple [0.2, 0.2, 0.2, 0.5]
+    density: 1
+    id: 4480995472
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id001 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.5]
+    density: 1
+    id: 4480995536
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: !!python/tuple [1.0, 1.0, 0.0, 0.5]
+    density: 1
+    id: 4480995408
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: false
+    name: flexible
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id001
+    density: 1
+    id: 4480995792
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id002
+    density: 1
+    id: 4480995728
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+dirname: /Users/nickgravish/popupCAD_files/designs
+id: 4680712272
+operations:
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 4680791312
+  layer_links: [4480995472, 4480995536, 4480995408, 4480995792, 4480995728]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4680841936]
+parent_program_name: popupCAD
+parent_program_version: 2016.03.03
+sketches:
+  4680841936: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: 4680841936.sketch
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints: []
+    id: 4680841936
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4680792144, 0.8103130755064457, 0.5340699815837937]
+      - !ShapeVertex_1 [4680793360, -1.841620626151013, -1.7679558011049725]
+      - !ShapeVertex_1 [4680792208, 1.7311233885819521, -3.241252302025783]
+      - !ShapeVertex_1 [4680790672, 3.4806629834254146, -1.4917127071823206]
+      - !ShapeVertex_1 [4680790800, 3.2965009208103133, -0.40515653775322286]
+      - !ShapeVertex_1 [4680783056, 3.001841620626151, -0.03683241252302026]
+      id: 4680782736
+      interiors: []
+subdesigns: {}

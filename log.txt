@@ -1,0 +1,5 @@
+<class 'KeyboardInterrupt'>: 
+
+  File "/Users/nickgravish/popupcad/popupcad/guis/editor.py", line 390, in closeEvent
+    def closeEvent(self, event):
+

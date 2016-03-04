@@ -1,0 +1,58 @@
+!!python/object:popupcad.filetypes.sketch.Sketch
+_basename: 4714493072.sketch
+constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+  constraints:
+  - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+    id: 4701423824
+    segment_ids:
+    - !!python/tuple [4672663312, 4700957840]
+    vertex_ids: []
+  - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+    id: 4701449744
+    segment_ids: []
+    vertex_ids: [4672663312, 4773801040]
+  - !!python/object:popupcad.constraints.constraints.FixedConstraint
+    id: 4700955152
+    segment_ids: []
+    values:
+    - !!python/tuple [-2.8380136412237, 0.414440420038216]
+    vertex_ids: [4700957840]
+  - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+    id: 4700998480
+    segment_ids: []
+    vertex_ids: [4700957840, 4747392208]
+  - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+    id: 4714495504
+    segment_ids: []
+    value: 0.11
+    vertex_ids: [4700957840, 4773756560]
+  - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+    id: 4672585424
+    segment_ids: []
+    value: 0.0
+    vertex_ids: [4773756560, 4792597456]
+dirname: /Users/nickgravish/popupCAD_files/sketches
+id: 4714493072
+operationgeometry:
+- !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+  construction: false
+  exterior:
+  - !ShapeVertex_1 [4747392208, -2.8380136412237, 0.414440420038216]
+  - !ShapeVertex_1 [4773756560, -0.1380136412236997, 0.30444042003821603]
+  id: 4747393168
+  interiors: []
+- !!python/object:popupcad.filetypes.genericshapes.GenericLine
+  construction: false
+  exterior:
+  - !ShapeVertex_1 [4672663312, -2.8380136412237, 0.764240420038216]
+  - !ShapeVertex_1 [4700957840, -2.8380136412237, 0.414440420038216]
+  id: 4672572368
+  interiors: []
+- !DrawnPoint_1 [4773756368, -0.1380136412237, -0.642559579961784, true]
+- !DrawnPoint_1 [4747416784, -2.8380136412237005, 0.04724042003821547, true]
+- !DrawnPoint_1 [4773825552, -2.8380136412237005, 0.764240420038216, true]
+- !DrawnPoint_1 [4773867024, -1.0130136412237, 0.764240420038216, true]
+- !DrawnPoint_1 [4773801040, -2.8380136412237, 0.764240420038216, true]
+- !DrawnPoint_1 [4792597456, -0.1380136412236997, 0.7642404200382156, true]
+parent_program_name: popupCAD
+parent_program_version: 2016.02.25

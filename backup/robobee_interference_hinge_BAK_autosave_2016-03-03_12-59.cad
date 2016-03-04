@@ -1,0 +1,1682 @@
+!!python/object:popupcad.filetypes.design.Design
+_basename: robobee_interference_hinge_BAK.cad
+_layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
+  layers:
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id001 !!python/tuple [0.2, 0.2, 0.2, 0.5]
+    density: 1
+    id: 4669403024
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id002 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.5]
+    density: 1
+    id: 5160429840
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id001
+    density: 1
+    id: 5160429264
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id002
+    density: 1
+    id: 5183092944
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: !!python/tuple [1.0, 1.0, 0.0, 0.5]
+    density: 1
+    id: 5183103568
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: false
+    name: flexible
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id002
+    density: 1
+    id: 5160418320
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id001
+    density: 1
+    id: 5160445776
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id002
+    density: 1
+    id: 5160416400
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: adhesive
+    poisson: 0.5
+    thickness: 0.025
+  - !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id001
+    density: 1
+    id: 5160445840
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: rigid
+    poisson: 0.5
+    thickness: 0.025
+dirname: /Users/nickgravish/popupCAD_files/designs
+id: 804637766
+operations:
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: hinge_footprint
+  design_links: {}
+  id: 5160076368
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5183103568, 5160418320,
+    5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [5153733840]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: GeometryForHinge
+  design_links: {}
+  id: 5204335440
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5183103568, 5160418320,
+    5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [5135001936]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: kapton_hing
+  design_links: {}
+  id: 4672743056
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5160418320, 5160445776,
+    5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4773848336]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: Body
+  design_links: {}
+  id: 5183103504
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5183103568, 5160418320,
+    5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [5080763216]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: Body2
+  design_links: {}
+  id: 5125707728
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5183103568, 5160418320,
+    5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4747459792]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: top_mount
+  design_links: {}
+  id: 4773741648
+  layer_links: [4669403024, 5160429840, 5160418320, 5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4672649360]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 4712352912
+  layer_links: [4669403024, 5160429840, 5183092944, 5183103568, 5160418320, 5160445776,
+    5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4712379728]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: ''
+  design_links: {}
+  function: difference
+  id: 4773754576
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4773741648, 0]
+    unary:
+    - !!python/tuple [5125707728, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: WithHinge
+  design_links: {}
+  function: difference
+  id: 4773850640
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4672743056, 0]
+    unary:
+    - !!python/tuple [4773754576, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: KeyholeWingMount2
+  design_links: {}
+  id: 4713091728
+  layer_links: [5160418320, 5160445776, 5160416400, 5160445840, 5183092944, 5183103568]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4709385616]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: KeyholeWingMount1
+  design_links: {}
+  id: 4788869200
+  layer_links: [5183092944, 5183103568, 5160418320, 5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4709395600]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: KeyholeWingMount
+  design_links: {}
+  function: union
+  id: 4772624592
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4713091728, 0]
+    - !!python/tuple [4788869200, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: WithHinge2
+  design_links: {}
+  function: difference
+  id: 4712291600
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4712352912, 0]
+    unary:
+    - !!python/tuple [4773850640, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: KeyholeWingMount3
+  design_links: {}
+  function: intersection
+  id: 4772475856
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4772624592, 0]
+    - !!python/tuple [5125707728, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: KaptonKeepout
+  design_links: {}
+  id: 4770532624
+  layer_links: [5183103568]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4401826064]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: CurrentHinge
+  design_links: {}
+  function: union
+  id: 4788902480
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4772475856, 0]
+    - !!python/tuple [4712291600, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: BottomHoles
+  design_links: {}
+  id: 4713120528
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4679580048]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: AddBottomHoles
+  design_links: {}
+  function: difference
+  id: 4709236368
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4713120528, 0]
+    unary:
+    - !!python/tuple [4788902480, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: TopHoles
+  design_links: {}
+  id: 4709397648
+  layer_links: [5160418320, 5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4709396752]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: CurrentHinge2
+  design_links: {}
+  function: difference
+  id: 4709645264
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4709397648, 0]
+    unary:
+    - !!python/tuple [4709236368, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: BottomBracket
+  design_links: {}
+  id: 4810151760
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4709385616]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: SizeBottomBracket
+  design_links: {}
+  function: intersection
+  id: 4829090448
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4810151760, 0]
+    unary:
+    - !!python/tuple [5125707728, 0]
+    - !!python/tuple [4810151760, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: BottomStops
+  design_links: {}
+  id: 4748031760
+  layer_links: [4669403024]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4707609552]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: BottomTeeth
+  design_links: {}
+  function: union
+  id: 4709371536
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4829090448, 0]
+    - !!python/tuple [4748031760, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: AddBottomBracket
+  design_links: {}
+  function: union
+  id: 4829054608
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4709371536, 0]
+    - !!python/tuple [4709645264, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: TopTeeth
+  design_links: {}
+  id: 4823175376
+  layer_links: [5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [4748049616]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: full_part
+  design_links: {}
+  function: union
+  id: 4810286480
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4829054608, 0]
+    - !!python/tuple [4823175376, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: FullPartWithKAKeepouts
+  design_links: {}
+  function: union
+  id: 4709245328
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4810286480, 0]
+    - !!python/tuple [4770532624, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.cleanup2.Cleanup2
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 4821171728
+  keepout_type: null
+  network: null
+  operation_links:
+    parent:
+    - !!python/tuple [4709245328, 0]
+  sketch_links: {}
+  values: [0.001, 1.0]
+- !!python/object:popupcad_manufacturing_plugins.manufacturing.supportcandidate4.SupportCandidate4
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 4905664720
+  keepout_type: 301
+  network: null
+  operation_links:
+    parent:
+    - !!python/tuple [4821171728, 0]
+  sketch_links: {}
+  values: [0.1, 0.05]
+- !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+  _description: ''
+  customname: SupportAreas
+  design_links: {}
+  id: 5039806864
+  layer_links: [4669403024, 5160429840, 5160429264, 5183092944, 5183103568, 5160418320,
+    5160445776, 5160416400, 5160445840]
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [5039153104]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: ''
+  design_links: {}
+  function: intersection
+  id: 4397735440
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [5039806864, 0]
+    - !!python/tuple [4905664720, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: ''
+  design_links: {}
+  function: union
+  id: 4833365392
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4397735440, 0]
+    - !!python/tuple [4821171728, 0]
+  sketch_links: {}
+- !!python/object:popupcad_manufacturing_plugins.manufacturing.autoweb4.AutoWeb4
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 4806027664
+  keepout_type: 301
+  network: null
+  operation_links:
+    parent:
+    - !!python/tuple [4821171728, 0]
+  sketch_links: {}
+  values: [0.1, 0.05]
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: ReleaseCut
+  design_links: {}
+  function: intersection
+  id: 4966485136
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [5039806864, 0]
+    unary:
+    - !!python/tuple [4905664720, 3]
+    - !!python/tuple [5039806864, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: FinalPart
+  design_links: {}
+  function: union
+  id: 4930718032
+  network: null
+  operation_links:
+    binary: []
+    unary:
+    - !!python/tuple [4833365392, 0]
+    - !!python/tuple [4806027664, 0]
+  sketch_links: {}
+- !!python/object:popupcad.manufacturing.laminateoperation2.LaminateOperation2
+  _description: ''
+  customname: ''
+  design_links: {}
+  function: difference
+  id: 4739055504
+  network: null
+  operation_links:
+    binary:
+    - !!python/tuple [4821171728, 0]
+    unary:
+    - !!python/tuple [4930718032, 0]
+  sketch_links: {}
+parent_program_name: popupCAD
+parent_program_version: 2016.03.03
+sketches:
+  4401826064: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: KaptonKeepOut
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4671451856
+        segment_ids: []
+        value: 0.0
+        vertex_ids: [4742292752, 4741850960]
+    id: 4401826064
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericCircle
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4741850960, -2.9280225771291213, 0.2073223299740411]
+      - !ShapeVertex_1 [4741870864, -2.846228773639788, 0.1095266842020682]
+      id: 4742040080
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericCircle
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4742292752, -0.13977591738221423, 0.2073223299740411]
+      - !ShapeVertex_1 [4742293392, -0.05798211389288118, 0.11809272616749644]
+      id: 4742294224
+      interiors: []
+  4672649360: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: TopMountGeometry
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4714626384
+        segment_ids: []
+        vertex_ids: [4714635664, 4714625296]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4714636048
+        segment_ids: []
+        values:
+        - !!python/tuple [-1.0130136412236996, 0.7642404200382156]
+        vertex_ids: [4714641808]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4714641040
+        segment_ids: []
+        vertex_ids: [4672553552, 4714641808]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5135062992
+        segment_ids: []
+        value: 3.0
+        vertex_ids: [4672553552, 4714625296]
+    id: 4672649360
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4714625296, -4.0130136412237, 1.2644404200382156]
+      - !ShapeVertex_1 [4672553552, -1.0130136412237, 0.764240420038216]
+      id: 4714623888
+      interiors: []
+    - !DrawnPoint_1 [4714635664, -4.0130136412237, 1.2644404200382156, true]
+    - !DrawnPoint_1 [4714641808, -1.0130136412237, 0.764240420038216, true]
+  4679580048: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: BottomHoles
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4707725072
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.135257340720222, 0.25716343490304705]
+        vertex_ids: [4713031888]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4713057104
+        segment_ids: []
+        vertex_ids: [4707576528, 4712986384, 4713031888]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4713085520
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.927757340720221, 0.25716343490304705]
+        vertex_ids: [4713097168]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4713085904
+        segment_ids: []
+        vertex_ids: [4707773008, 4707724560, 4713097168, 4679588368]
+    id: 4679580048
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4679588368, -2.92775734072022, 0.257163434903047]
+      - !ShapeVertex_1 [4679589328, -2.543093236655881, 0.5601274240317233]
+      id: 4707559504
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4707576528, -0.135257340720222, 0.257163434903047]
+      - !ShapeVertex_1 [4707558864, -0.5277930626829557, 0.5601274240317233]
+      id: 4707557584
+      interiors: []
+    - !DrawnPoint_1 [4707724560, -2.92775734072022, 0.257163434903047, true]
+    - !DrawnPoint_1 [4712986384, -0.135257340720222, 0.257163434903047, true]
+    - !DrawnPoint_1 [4707773008, -2.92775734072022, 0.257163434903047, true]
+    - !DrawnPoint_1 [4713031888, -0.135257340720222, 0.257163434903047, true]
+    - !DrawnPoint_1 [4713097168, -2.92775734072022, 0.257163434903047, true]
+  4707609552: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: TopStops
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4810302480
+        segment_ids:
+        - !!python/tuple [4709354448, 4810238800]
+        - !!python/tuple [4791640976, 4810234832]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4810265744
+        segment_ids:
+        - !!python/tuple [4810090832, 4810234832]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4810301776
+        segment_ids:
+        - !!python/tuple [4791640400, 4791640976]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4827373136
+        segment_ids:
+        - !!python/tuple [4791642128, 4810238800]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4827402960
+        segment_ids:
+        - !!python/tuple [4709354448, 4810237520]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4827478416
+        segment_ids: []
+        value: 0.3
+        vertex_ids: [4791640976, 4810234832]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4810089744
+        segment_ids: []
+        value: 0.3
+        vertex_ids: [4810238800, 4709354448]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4746436304
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.435257340720222, 0.148163434903047]
+        vertex_ids: [4791640400]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4746591824
+        segment_ids: []
+        value: 0.25
+        vertex_ids: [4791640400, 4791640976]
+    id: 4707609552
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4810237520, -2.92775734072022, -0.006868665800649183]
+      - !ShapeVertex_1 [4709354448, -2.92775734072022, 0.398163434903047]
+      - !ShapeVertex_1 [4810238800, -2.6277573407202204, 0.398163434903047]
+      - !ShapeVertex_1 [4791642128, -2.6277573407202204, 0.148163434903047]
+      - !ShapeVertex_1 [4791640400, -0.435257340720222, 0.148163434903047]
+      - !ShapeVertex_1 [4791640976, -0.435257340720222, 0.398163434903047]
+      - !ShapeVertex_1 [4810234832, -0.135257340720222, 0.398163434903047]
+      - !ShapeVertex_1 [4810090832, -0.135257340720222, -0.07230370859211527]
+      - !ShapeVertex_1 [4810238544, -2.910397998120591, -0.08717530922653935]
+      id: 4707708112
+      interiors: []
+    - !DrawnPoint_1 [4810284432, -2.92775734072022, 0.354367943910947, true]
+    - !DrawnPoint_1 [4768590096, -2.92775734072022, 0.145749221340674, true]
+    - !DrawnPoint_1 [4777744208, -2.62775734072022, 0.148163434903047, true]
+    - !DrawnPoint_1 [4776333200, -0.435257340720222, 0.148163434903047, true]
+  4709385616: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: BottomMountingBracket1
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4709125584
+        segment_ids: []
+        value: 0.2572
+        vertex_ids: [4679182672, 4709123664]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4709239568
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.92775734072022, 0.14716343490304706]
+        vertex_ids: [4709240080]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4709238032
+        segment_ids: []
+        value: 0.0
+        vertex_ids: [4679182672, 4709240080]
+    id: 4709385616
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4679182672, -3.056449536121636, 0.147163434903047]
+      - !ShapeVertex_1 [4709123664, -0.07965080913107749, -0.11003656509695298]
+      id: 4709133840
+      interiors: []
+    - !DrawnPoint_1 [4709240080, -2.92775734072022, 0.147163434903047, true]
+  4709395600: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: RobobeeKeyhole
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4708619920
+        segment_ids:
+        - !!python/tuple [4708779280, 4708779344]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4446823824
+        segment_ids:
+        - !!python/tuple [4708780240, 4708781776]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4447004432
+        segment_ids:
+        - !!python/tuple [4708778320, 4708779024]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4679536400
+        segment_ids:
+        - !!python/tuple [4708778576, 4708782032]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4448537808
+        segment_ids:
+        - !!python/tuple [4708778128, 4708780880]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4679534608
+        segment_ids:
+        - !!python/tuple [4708779600, 4708780112]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4448473040
+        segment_ids:
+        - !!python/tuple [4708778320, 4708782032]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4446825104
+        segment_ids:
+        - !!python/tuple [4708779344, 4708781776]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4446980176
+        segment_ids:
+        - !!python/tuple [4708779024, 4708780240]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4446953808
+        segment_ids:
+        - !!python/tuple [4708778128, 4708778576]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4446936144
+        segment_ids:
+        - !!python/tuple [4708779600, 4708780880]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4446852944
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4708781776, 4708779344]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4446981008
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4708779024, 4708780240]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4446883792
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4708778320, 4708782032]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4446886736
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4708778576, 4708778128]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4446890576
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4708779600, 4708780880]
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4768186448
+        segment_ids:
+        - !!python/tuple [4708779280, 4708780112]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4768208464
+        segment_ids: []
+        value: 0.4616
+        vertex_ids: [4708779280, 4708779344]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4446890640
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.135257340720222, 0.14716343490304706]
+        vertex_ids: [4772475536]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4760796752
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.135257340720222, 0.14716343490304706]
+        vertex_ids: [4709325776]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4772477136
+        segment_ids: []
+        vertex_ids: [4708779280, 4709325776]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4706327312
+        segment_ids: []
+        value: 0.4599
+        vertex_ids: [4708779600, 4708780112]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4747064848
+        segment_ids: []
+        value: 0.0
+        vertex_ids: [4708779344, 4770691280]
+    id: 4709395600
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4708779280, -0.135257340720222, 0.147163434903047]
+      - !ShapeVertex_1 [4708779344, -0.135257340720222, -0.314436565096953]
+      - !ShapeVertex_1 [4708781776, -0.405257340720222, -0.314436565096953]
+      - !ShapeVertex_1 [4708780240, -0.405257340720222, -0.6095492353597899]
+      - !ShapeVertex_1 [4708779024, -0.675257340720222, -0.6095492353597899]
+      - !ShapeVertex_1 [4708778320, -0.675257340720222, -0.22764653106777896]
+      - !ShapeVertex_1 [4708782032, -0.945257340720222, -0.22764653106777896]
+      - !ShapeVertex_1 [4708778576, -0.945257340720222, -0.6024108670552658]
+      - !ShapeVertex_1 [4708778128, -1.215257340720222, -0.6024108670552658]
+      - !ShapeVertex_1 [4708780880, -1.215257340720222, -0.31273656509695297]
+      - !ShapeVertex_1 [4708779600, -1.485257340720222, -0.31273656509695297]
+      - !ShapeVertex_1 [4708780112, -1.485257340720222, 0.147163434903047]
+      id: 4708781648
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4770223312, -0.22344836609418223, 0.147163434903047]
+      - !ShapeVertex_1 [4770691280, 0.3814143592243772, -0.314436565096953]
+      id: 4779313680
+      interiors: []
+    - !DrawnPoint_1 [4772475536, -0.135257340720222, 0.147163434903047, true]
+    - !DrawnPoint_1 [4709325776, -0.135257340720222, 0.147163434903047, true]
+  4709396752: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: TopHoles
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4707559248
+        segment_ids: []
+        value: 0.4
+        vertex_ids: [4821186640, 4779209616]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4709154896
+        segment_ids: []
+        value: 0.4
+        vertex_ids: [4709923600, 4709922384]
+    id: 4709396752
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4821186640, -2.1980535605219207, 0.2577108012599308]
+      - !ShapeVertex_1 [4779209616, -1.7980535605219208, 0.560127424031723]
+      id: 4748038736
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4709922384, -1.254291304475986, 0.257163434903047]
+      - !ShapeVertex_1 [4709923600, -0.854291304475986, 0.560127424031723]
+      id: 4709325840
+      interiors: []
+    - !DrawnPoint_1 [4748052176, -2.54309323665588, 0.560127424031723, true]
+    - !DrawnPoint_1 [4709762768, -2.543093236655881, 0.25716343490304705, true]
+    - !DrawnPoint_1 [4709370384, -0.527793062682956, 0.560127424031723, true]
+    - !DrawnPoint_1 [4709265296, -0.527793062682956, 0.257163434903047, true]
+  4710133968: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: construction_geom
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints: []
+    id: 4710133968
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4710133840, -2.9528774485111495, 1.3882188898682912]
+      - !ShapeVertex_1 [4710486736, -2.9528774485111495, -0.9788295905102377]
+      id: 4710134032
+      interiors: []
+  4712379728: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: BottomRectangle
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4712431952
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.92775734072022, 0.14716343490304706]
+        vertex_ids: [4789011856]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4712325456
+        segment_ids: []
+        value: 0.0
+        vertex_ids: [4712466448, 4789011856]
+    id: 4712379728
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4712466448, -3.5982207666935273, 0.147163434903047]
+      - !ShapeVertex_1 [4712946448, 0.6985058831653, -1.4116863912488078]
+      id: 4788871120
+      interiors: []
+    - !DrawnPoint_1 [4789011856, -2.92775734072022, 0.147163434903047, true]
+  4747459792: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: footprint_2
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5008983952
+        segment_ids: []
+        values:
+        - !!python/tuple [-3.1437573407202226, 1.2644404200382156]
+        vertex_ids: [5146534608]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5146545360
+        segment_ids: []
+        vertex_ids: [4792595408, 5146534608]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5202155024
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.4687573407202223, 1.2644404200382156]
+        vertex_ids: [5204333968]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5202208592
+        segment_ids: []
+        vertex_ids: [5204333968, 4792594768]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5135001424
+        segment_ids: []
+        values:
+        - !!python/tuple [-1.0102573407202222, 0.7642404200382156]
+        vertex_ids: [5204332688]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5001367888
+        segment_ids: []
+        vertex_ids: [5204332688, 4701381200]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5001367952
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.13525734072022227, 0.7642404200382156]
+        vertex_ids: [4747459792]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5204336016
+        segment_ids: []
+        vertex_ids: [4747459792, 5001361936]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5001383504
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.13525734072022227, -0.6425595799617845]
+        vertex_ids: [4672660176]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5130559376
+        segment_ids: []
+        vertex_ids: [4672660176, 5146544336]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4700825104
+        segment_ids: []
+        values:
+        - !!python/tuple [-1.0191573407202223, -0.6425595799617845]
+        vertex_ids: [5001380880]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5135002320
+        segment_ids: []
+        vertex_ids: [5146453712, 5001380880]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5201988816
+        segment_ids: []
+        values:
+        - !!python/tuple [-1.4852573407202223, -0.40545957996178456]
+        vertex_ids: [4792683792]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5201988368
+        segment_ids: []
+        vertex_ids: [4701384464, 4792683792]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5202099856
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.927757340720223, 0.6071634349030472]
+        vertex_ids: [5001457360]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5020641168
+        segment_ids: []
+        vertex_ids: [4747418256, 5001457360]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4773800464
+        segment_ids: []
+        values:
+        - !!python/tuple [-3.1437573407202226, 0.6071634349030472]
+        vertex_ids: [5125781200]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4700841872
+        segment_ids: []
+        vertex_ids: [5146534544, 5125781200]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4773782288
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.92775734072022, -0.109836565096953]
+        vertex_ids: [4773882960]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4773866960
+        segment_ids: []
+        vertex_ids: [4773882960, 4700934992]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4809275280
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.135257340720222, 0.147163434903047]
+        vertex_ids: [4706456656]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4809276816
+        segment_ids: []
+        vertex_ids: [4706456656, 4809301712]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4809413520
+        segment_ids: []
+        values:
+        - !!python/tuple [-0.135257340720222, 0.147163434903047]
+        vertex_ids: [4809434512]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4809433552
+        segment_ids: []
+        value: 0.947
+        vertex_ids: [4809300880, 4809434512]
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4809510032
+        segment_ids:
+        - !!python/tuple [4809274512, 4809300880]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4793144784
+        segment_ids:
+        - !!python/tuple [4743199888, 4809300880]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4809342032
+        segment_ids: []
+        value: 0.0
+        vertex_ids: [4743199888, 4809434512]
+    id: 4747459792
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4792595408, -3.14375734072022, 1.26444042003822]
+      - !ShapeVertex_1 [4792594768, -2.46875734072022, 1.26444042003822]
+      - !ShapeVertex_1 [4701381200, -1.01025734072022, 0.764240420038216]
+      - !ShapeVertex_1 [5001361936, -0.135257340720222, 0.764240420038216]
+      - !ShapeVertex_1 [5146544336, -0.135257340720222, -0.642559579961784]
+      - !ShapeVertex_1 [5146453712, -1.01915734072022, -0.642559579961784]
+      - !ShapeVertex_1 [4701384464, -1.48525734072022, -0.405459579961785]
+      - !ShapeVertex_1 [4700934992, -2.92775734072022, -0.109836565096953]
+      - !ShapeVertex_1 [4747418256, -2.92775734072022, 0.607163434903047]
+      - !ShapeVertex_1 [5146534544, -3.14375734072022, 0.607163434903047]
+      id: 4792597392
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      construction: true
+      exterior:
+      - !ShapeVertex_1 [4773783824, -2.92775734072022, 0.147163434903047]
+      - !ShapeVertex_1 [5146356368, -2.92775734072022, -0.109836565096953]
+      id: 5135107472
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4809301712, -0.135257340720222, 0.147163434903047]
+      - !ShapeVertex_1 [4743199888, -0.135257340720222, 0.07255346260387803]
+      - !ShapeVertex_1 [4809300880, -0.135257340720222, -0.799836565096953]
+      - !ShapeVertex_1 [4809274512, -1.0131366367202221, -0.799836565096953]
+      - !ShapeVertex_1 [4809273744, -0.1945580011080332, 0.12942476011080317]
+      id: 4809298704
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4741232912, -0.13525734072022216, -0.7998365650969529]
+      - !ShapeVertex_1 [4779712208, -1.0261160203139408, -0.8026092106173707]
+      - !ShapeVertex_1 [4779690000, -1.4922160203139412, -0.5585505310236504]
+      - !ShapeVertex_1 [4779729040, -2.927757340720221, -0.2629275161588181]
+      - !ShapeVertex_1 [4779729296, -2.927757340720221, 0.35436794391094684]
+      id: 4779729424
+      interiors: []
+    - !DrawnPoint_1 [5146534608, -3.14375734072022, 1.26444042003822, true]
+    - !DrawnPoint_1 [5204333968, -2.46875734072022, 1.26444042003822, true]
+    - !DrawnPoint_1 [5204332688, -1.01025734072022, 0.764240420038216, true]
+    - !DrawnPoint_1 [4747459792, -0.135257340720222, 0.764240420038216, true]
+    - !DrawnPoint_1 [4672660176, -0.135257340720222, -0.642559579961784, true]
+    - !DrawnPoint_1 [5001380880, -1.01915734072022, -0.642559579961784, true]
+    - !DrawnPoint_1 [4792683792, -1.48525734072022, -0.405459579961785, true]
+    - !DrawnPoint_1 [4700784016, -2.92775734072022, -0.0117183981710098, true]
+    - !DrawnPoint_1 [5001457360, -2.92775734072022, 0.607163434903047, true]
+    - !DrawnPoint_1 [5125781200, -3.14375734072022, 0.607163434903047, true]
+    - !DrawnPoint_1 [4773882960, -2.92775734072022, -0.109836565096953, true]
+    - !DrawnPoint_1 [4706456656, -0.135257340720222, 0.147163434903047, true]
+    - !DrawnPoint_1 [4809434512, -0.135257340720222, 0.147163434903047, true]
+    - !DrawnPoint_1 [4671507152, -1.01915734072022, -0.642559579961784, true]
+    - !DrawnPoint_1 [4743262480, -2.92775734072022, -0.109836565096953, true]
+  4748049616: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: TopTeeth
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4822605776
+        segment_ids:
+        - !!python/tuple [4810252432, 4822604112]
+        - !!python/tuple [4822603664, 4827372368]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4810245328
+        segment_ids:
+        - !!python/tuple [4810261904, 4822604112]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4810246672
+        segment_ids:
+        - !!python/tuple [4810252432, 4810281232]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4822647568
+        segment_ids:
+        - !!python/tuple [4810284752, 4827372368]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4822649232
+        segment_ids:
+        - !!python/tuple [4709941456, 4822603664]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4831924112
+        segment_ids: []
+        values:
+        - !!python/tuple [-1.84728564868934, 0.147163434903047]
+        vertex_ids: [4810284752]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4831912656
+        segment_ids: []
+        value: 0.25
+        vertex_ids: [4827372368, 4810284752]
+    id: 4748049616
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4709941456, -2.14728564868934, -0.06485388108295956]
+      - !ShapeVertex_1 [4822603664, -2.14728564868934, 0.397163434903047]
+      - !ShapeVertex_1 [4827372368, -1.84728564868934, 0.397163434903047]
+      - !ShapeVertex_1 [4810284752, -1.84728564868934, 0.147163434903047]
+      - !ShapeVertex_1 [4810261904, -1.198264211002016, 0.147163434903047]
+      - !ShapeVertex_1 [4822604112, -1.198264211002016, 0.397163434903047]
+      - !ShapeVertex_1 [4810252432, -0.8982642110020161, 0.397163434903047]
+      - !ShapeVertex_1 [4810281232, -0.8982642110020161, -0.05771551277843599]
+      id: 4707550864
+      interiors: []
+    - !DrawnPoint_1 [4779487696, -1.198264211002016, 0.14816343490304706, true]
+  4773848336: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: noah_hinge_length.sketch
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4700865168
+        segment_ids: []
+        value: 0.11
+        vertex_ids: [5135087312, 4792684048]
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4701423120
+        segment_ids:
+        - !!python/tuple [5001357584, 5135123408]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4792613328
+        segment_ids: []
+        value: 0.35
+        vertex_ids: [5001357584, 5135123408]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5135116368
+        segment_ids: []
+        values:
+        - !!python/tuple [-3.1437573407202226, 0.6071634349030472]
+        vertex_ids: [4792613008]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5135122512
+        segment_ids: []
+        vertex_ids: [5001357584, 4792613008]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 4700962896
+        segment_ids: []
+        vertex_ids: [4792684048, 5135123408]
+    dirname: /Users/nickgravish/popupCAD_files/sketches
+    id: 4773848336
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4792684048, -3.14375734072022, 0.25716343490304705]
+      - !ShapeVertex_1 [5135087312, 0.893960456509694, 0.14716343490304706]
+      id: 5125728784
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5001357584, -3.14375734072022, 0.607163434903047]
+      - !ShapeVertex_1 [5135123408, -3.14375734072022, 0.25716343490304705]
+      id: 5001358608
+      interiors: []
+    - !DrawnPoint_1 [4773756368, -0.1380136412237, -0.642559579961784, true]
+    - !DrawnPoint_1 [4792613008, -3.14375734072022, 0.607163434903047, true]
+    parent_program_name: popupCAD
+    parent_program_version: 2016.02.25
+  5001353296: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: wing_attach_geometry
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5001418064
+        segment_ids:
+        - !!python/tuple [4838547792, 4838561232]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5001439120
+        segment_ids:
+        - !!python/tuple [4672674064, 4792620112]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5001454352
+        segment_ids:
+        - !!python/tuple [5001391184, 5001391824]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5125709648
+        segment_ids:
+        - !!python/tuple [4838562768, 5001390224]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4838587408
+        segment_ids:
+        - !!python/tuple [5001390224, 5001391632]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5125738000
+        segment_ids:
+        - !!python/tuple [4838562768, 5001391376]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5125735248
+        segment_ids:
+        - !!python/tuple [5001390096, 5001391824]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5125708944
+        segment_ids:
+        - !!python/tuple [5001255952, 5001391184]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4792671440
+        segment_ids:
+        - !!python/tuple [4672674064, 5001360976]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5125782032
+        segment_ids:
+        - !!python/tuple [4792620112, 4838561232]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5125918992
+        segment_ids:
+        - !!python/tuple [5001390672, 5001399696]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5011220560
+        segment_ids:
+        - !!python/tuple [5001361424, 5001390672]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4792671632
+        segment_ids: []
+        value: 1.4419
+        vertex_ids: [5001361424, 4838561232]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4838630608
+        segment_ids: []
+        value: 0.2028
+        vertex_ids: [4792620112, 4838561232]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4792660432
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [4672674064, 4792620112]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5011221072
+        segment_ids: []
+        vertex_ids: [5001361424, 4838547792]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 4672583504
+        segment_ids: []
+        value: 0.51
+        vertex_ids: [5001255952, 5001391184]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4747416016
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [5001391184, 5001391824]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4773754704
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [5001391376, 5001390096]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4773756816
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [5001360976, 5001255952]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4747551568
+        segment_ids: []
+        value: 0.27
+        vertex_ids: [5001390224, 4838562768]
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4792589712
+        segment_ids:
+        - !!python/tuple [5001390160, 5001391632]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 4773720144
+        segment_ids:
+        - !!python/tuple [5001390160, 5001399696]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 4773743184
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.8380136412237005, 1.2644404200382156]
+        vertex_ids: [4773899280]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5202199760
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.8380136412237005, 1.2644404200382156]
+        vertex_ids: [4773898448]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5202200144
+        segment_ids: []
+        value: 2.7925
+        vertex_ids: [4773898448]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5202209168
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.8380136412237005, 0.30444042003821603]
+        vertex_ids: [5202199824]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5202210448
+        segment_ids: []
+        vertex_ids: [5202199824, 5001390672]
+    id: 5001353296
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPolyline
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [4838547792, -2.8380136412237, 0.0504885379166614]
+      - !ShapeVertex_1 [4838561232, -1.3961136412237, 0.0504885379166614]
+      - !ShapeVertex_1 [4792620112, -1.3961136412237, -0.1523114620833386]
+      - !ShapeVertex_1 [4672674064, -1.1261136412237, -0.1523114620833386]
+      - !ShapeVertex_1 [5001360976, -1.1261136412237, -0.43736996115533894]
+      - !ShapeVertex_1 [5001255952, -0.8561136412237, -0.43259238675533895]
+      - !ShapeVertex_1 [5001391184, -0.8561136412237, 0.07740761324466107]
+      - !ShapeVertex_1 [5001391824, -0.5861136412237, 0.07740761324466107]
+      - !ShapeVertex_1 [5001390096, -0.5861136412237, -0.44367635936333905]
+      - !ShapeVertex_1 [5001391376, -0.3161136412237, -0.44367635936333905]
+      - !ShapeVertex_1 [4838562768, -0.3161136412237, -0.20621168778629942]
+      - !ShapeVertex_1 [5001390224, -0.04611364122369997, -0.20621168778629942]
+      - !ShapeVertex_1 [5001391632, -0.04611364122369997, -0.020574370499339252]
+      - !ShapeVertex_1 [5001390160, -0.04611364122369997, 0.11575371500466064]
+      - !ShapeVertex_1 [5001399696, -0.04611364122369997, 0.304440420038216]
+      - !ShapeVertex_1 [5001390672, -2.8380136412237, 0.304440420038216]
+      - !ShapeVertex_1 [5001361424, -2.8380136412237, 0.0504885379166614]
+      id: 5001362896
+      interiors: []
+    - !DrawnPoint_1 [5125815568, -2.8380136412237, 0.0472404200382155, true]
+    - !DrawnPoint_1 [4773899280, -2.8380136412237, 1.26444042003822, true]
+    - !DrawnPoint_1 [4773898448, -2.8380136412237, 1.26444042003822, true]
+    - !DrawnPoint_1 [5202199824, -2.8380136412237, 0.304440420038216, true]
+  5039153104: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: Supports
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints: []
+    id: 5039153104
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5057648656, -2.874032875496509, 1.0409459678655313]
+      - !ShapeVertex_1 [5057648784, -2.5091194877692646, 1.724516116706708]
+      id: 5057649296
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5057649360, -1.8512474648243724, 0.712009956393085]
+      - !ShapeVertex_1 [5035996752, 0.21488185723692982, 1.2722291009320947]
+      id: 5038408144
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5057647952, 0.1528917105179712, 0.04260010481817836]
+      - !ShapeVertex_1 [5057649424, -0.22744055274704464, -0.3582906591638654]
+      id: 5057650320
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5047444624, -2.8631665231374566, 0.03210671238074999]
+      - !ShapeVertex_1 [5057647504, -3.2326324340434187, -0.2524882020037354]
+      id: 5047444496
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5035975504, -3.0590593819497607, -1.235907986545307]
+      - !ShapeVertex_1 [5047447120, -1.023767810964, -0.24396032694871156]
+      id: 5047447312
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5047446608, -3.0847575078460454, 0.6349155787042303]
+      - !ShapeVertex_1 [5057647760, -3.2492255135822683, 0.7325684571101129]
+      id: 5047444880
+      interiors: []
+  5080763216: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: footprint_interference_hinge
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 4742630736
+        segment_ids:
+        - !!python/tuple [4742637840, 4742638160]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4742716496
+        segment_ids: []
+        value: 0.875
+        vertex_ids: [4742637840, 4742638160]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 4742814800
+        segment_ids: []
+        value: 3.0085
+        vertex_ids: [4742636496, 4742638160]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5256120400
+        segment_ids: []
+        value: 0.8839
+        vertex_ids: [4742638288, 4742639248]
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5213638864
+        segment_ids: []
+        value: 0.4661
+        vertex_ids: [4742637904, 4742638288]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 5214077520
+        segment_ids: []
+        value: 1.2172
+        vertex_ids: [4742636496, 4742639120]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 5254417616
+        segment_ids: []
+        value: 1.4068
+        vertex_ids: [4742638160, 4742639248]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5125746576
+        segment_ids: []
+        vertex_ids: [4747380048, 4773767184]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5146452880
+        segment_ids: []
+        vertex_ids: [4742637840, 5125752720]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5146470096
+        segment_ids: []
+        vertex_ids: [4714631632, 4742639248]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5146493840
+        segment_ids: []
+        vertex_ids: [4742637904, 4714633936]
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5146543376
+        segment_ids:
+        - !!python/tuple [4714631248, 4773767184]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5146537616
+        segment_ids:
+        - !!python/tuple [4714637136, 4747427088]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
+        id: 5146579216
+        segment_ids:
+        - !!python/tuple [4714631248, 4714637136]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5008877264
+        segment_ids: []
+        value: 0.216
+        vertex_ids: [4714631248, 4714637136]
+    dirname: /Users/nickgravish/popupCAD_files/sketches
+    id: 5080763216
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericPoly
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5009015952, -3.1437573407202226, 1.2644404200382156]
+      - !ShapeVertex_1 [5009018192, -2.4687573407202223, 1.2644404200382156]
+      - !ShapeVertex_1 [5009014928, -1.0102573407202222, 0.7642404200382156]
+      - !ShapeVertex_1 [5009016080, -0.13525734072022225, 0.7642404200382156]
+      - !ShapeVertex_1 [5009016592, -0.13525734072022225, -0.6425595799617845]
+      - !ShapeVertex_1 [5009015824, -1.0191573407202223, -0.6425595799617845]
+      - !ShapeVertex_1 [5009018000, -1.4852573407202223, -0.4054595799617845]
+      - !ShapeVertex_1 [5009018512, -2.9277573407202224, -0.011718398171009753]
+      - !ShapeVertex_1 [5009016144, -2.9277573407202224, 0.6071634349030472]
+      - !ShapeVertex_1 [5009016208, -3.1437573407202226, 0.6071634349030472]
+      id: 5009014992
+      interiors: []
+    parent_program_name: popupCAD
+    parent_program_version: 2016.02.19
+  5135001936: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: 5135001936.sketch
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
+        id: 5146522960
+        segment_ids:
+        - !!python/tuple [5130576912, 5146554832]
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5130578256
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.927757340720223, 0.14716343490304706]
+        vertex_ids: [5146525072]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5146470864
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.927757340720223, 0.14716343490304706]
+        vertex_ids: [4838609104]
+      - !!python/object:popupcad.constraints.constraints.CoincidentConstraint
+        id: 5146470160
+        segment_ids: []
+        vertex_ids: [5130576912, 4838609104]
+      - !!python/object:popupcad.constraints.constraints.FixedConstraint
+        id: 5202156624
+        segment_ids: []
+        values:
+        - !!python/tuple [-2.927757340720223, 0.14716343490304706]
+        vertex_ids: [5146534672]
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 5146464080
+        segment_ids: []
+        value: 0.257
+        vertex_ids: [5146534672, 5146554832]
+    id: 5135001936
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5130576912, -2.92775734072022, 0.147163434903047]
+      - !ShapeVertex_1 [5146554832, -2.92775734072022, -0.109836565096953]
+      id: 5146558288
+      interiors: []
+    - !DrawnPoint_1 [5146525072, -2.92775734072022, 0.147163434903047, true]
+    - !DrawnPoint_1 [4838609104, -2.92775734072022, 0.147163434903047, true]
+    - !DrawnPoint_1 [5146534672, -2.92775734072022, 0.147163434903047, true]
+  5153733840: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: body
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.constraints.constraints.XDistanceConstraint
+        id: 5183091856
+        segment_ids:
+        - !!python/tuple [5152395152, 5153745616]
+        value: 25.0
+        vertex_ids: []
+      - !!python/object:popupcad.constraints.constraints.YDistanceConstraint
+        id: 5160519312
+        segment_ids:
+        - !!python/tuple [5152395152, 5153745616]
+        value: 25.0
+        vertex_ids: []
+    id: 5153733840
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericTwoPointRect
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [5153745616, -5.4511970534069984, 3.5911602209944755]
+      - !ShapeVertex_1 [5152395152, 19.548802946593, -21.408839779005525]
+      id: 5153744720
+      interiors: []
+subdesigns: {}
